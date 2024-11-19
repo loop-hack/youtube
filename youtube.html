@@ -13,9 +13,22 @@
         }
           .search-bar{
             font-size:13px;
+            display:block;
           }
         .video-preview{
           width:300px;
+          display:inline-block;
+          vertical-align:top;
+          margin-right:15px;
+        }
+        .video-info{
+          display:inline-block;
+          width:200px;
+        }
+        .profile-pic{
+          display:inline-block;
+          width:50px;
+          vertical-align:top;
         }
 
     </style>
@@ -24,7 +37,14 @@
   <body>
     <input class="search-bar" text="text" placeholder="Search">
     <div class="video-preview">
-    <img class="thumbnail" src="thumbnails\thumbnail-1.webp">
+      <div>
+        <img class="thumbnail" src="thumbnails\thumbnail-1.webp">
+      </div>
+<div >
+  <div class="profile-pic">
+    <img class="profile-image" src="thumbnails\channel-1.jpeg">
+  </div>
+  <div class="video-info">
     <P class="video-title">
       Talking Tech and AI with Google CEO Sundar Pichai!
     </P>
@@ -33,6 +53,20 @@
     </p>
     <p class="video-stats">
       3.4M views &#183; 6 months ago
+    </p>
+  </div>
+</div>
+  </div>
+    <div class="video-preview">
+    <img class="thumbnail" src="thumbnails/thumbnail-2.webp"
+    <p class="video-title">
+      Try Not To Laugh Challenge #9
+    </P>
+    <p class="video-author">
+      Markiplier
+    </p>
+    <p class="video-stats">
+      19M views &#183; 4 years ago
     </p>
   </div>
   </body>
