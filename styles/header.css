@@ -65,7 +65,7 @@ align-items:center;
   width: 0;
 }
 .search-bar::placeholder{
-  font-family: Roboto,Arial;
+  font-family:Roboto,Arial;
   font-size:16px;
 }
 .voice-search-icon{
