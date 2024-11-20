@@ -1,14 +1,9 @@
-.side-bar{
-  width:60px;
+.sidebar{
+  background-color: lightblue;
+  position:fixed;
+  top:55px;
   left:0;
-  top:0;
-}
-.home-icon{
-  height:24px;
-}
-.explore-icon{
-  height:24px;
-}
-.subscriptions-icon{
-  height:24px;
+  bottom:0;
+  width:72px;
+
 }
