@@ -4,6 +4,21 @@
   column-gap:16px;
   row-gap:40px;
 }
+@media (max-width:750px){
+  .outer-grid{
+grid-template-columns: 1fr 1fr;
+  }}
+  @media(min-width:751px) and (max-width:1139px){
+    .outer-grid{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media(min-width:1140px){
+    .outer-grid{
+      grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+  }
+  
 .thumbnail{
   width:100%;
   }
@@ -35,17 +50,14 @@
 .video-author{
   margin-bottom:4px;
 }
-.video-time{ position:absolute;
+.video-time{   font-family: Robot,Arial;
+  position:absolute;
   background-color: black;
   color:white;
   bottom:10px;
   right:8px;
-  font-family: Robot,Arial;
   font-size:12px;
   font-weight:500;
-  padding-left:4px;
-  padding-bottom:4px;
-  padding-top:4px;
-  padding-right:4px;
+  padding:4px;
   border-radius:2px;
 }
